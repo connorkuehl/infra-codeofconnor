@@ -32,5 +32,6 @@ resource "digitalocean_project_resources" "add_to_project" {
   resources = [
     module.webserver.droplet_urn,
     module.webserver.domain_urn,
+    module.webserver.volume_urn,
   ]
 }
