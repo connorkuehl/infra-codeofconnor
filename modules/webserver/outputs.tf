@@ -1,5 +1,5 @@
 output "droplet_urn" {
-  value = digitalocean_droplet.webserver.urn
+  value = digitalocean_droplet.www.urn
 }
 
 output "domain_urn" {
@@ -7,5 +7,5 @@ output "domain_urn" {
 }
 
 output "volume_urn" {
-  value = digitalocean_volume.htmldata.urn
+  value = digitalocean_volume.www_data.urn
 }

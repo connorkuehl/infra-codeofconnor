@@ -23,7 +23,7 @@ variable "region" {
 variable "droplet_name" {
   type        = string
   description = "Human-readable name for the droplet"
-  default     = "webserver"
+  default     = "www"
 }
 
 variable "domain_name" {
